@@ -48,6 +48,7 @@ body{
 
 .result-container{
   display: flex;
+  justify-content: center;
   gap: 5rem;
   width: 1000px;
   margin: 3rem auto 0;
@@ -63,16 +64,18 @@ body{
 
 .message-box{
   background-color: #72727268;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 2rem;
   font-size: 2rem;
 }
 
 .result-kg{
-  padding: 3rem;
   text-align: center;
-  border-radius: 50%;
   background-color: #86808057;
 }
 .result-message{
   text-align: center;
+}
+
+.none{
+  display: none;
 }
