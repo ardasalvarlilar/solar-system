@@ -33,6 +33,9 @@ body{
   width: 9.375rem;
   height: 2.3rem;
 }
+.planet-input-div select option{
+  text-transform: uppercase;
+}
 
 .btn-div #button{
   padding: .8rem;
@@ -41,4 +44,35 @@ body{
   color: white;
   font-weight: bold;
   background-color: #515151;
+}
+
+.result-container{
+  display: flex;
+  gap: 5rem;
+  width: 1000px;
+  margin: 3rem auto 0;
+  background-color: #bbbbbb42;
+  color: white;
+}
+
+.message-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box{
+  background-color: #72727268;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+}
+
+.result-kg{
+  padding: 3rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #86808057;
+}
+.result-message{
+  text-align: center;
 }
