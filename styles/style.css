@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../images/galaxy.gif');
+}
+
+.title{
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 3px #7752FE;
+  margin-top: 3.125rem;
+}
+
+.inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.kg-input-div input{
+  height: 2.3rem;
+  width: 19.750rem;
+}
+
+.planet-input-div select{
+  width: 9.375rem;
+  height: 2.3rem;
+}
+
+.btn-div #button{
+  padding: .8rem;
+  border-radius: .5rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #515151;
+}
